@@ -1,0 +1,43 @@
+{"intents": [
+        {"tag": "QA1",
+         "patterns": ["how are you", "how are ya", "how you doing"],
+         "responses": ["I am doing fantastic and you?"],
+         "context_set": ""
+        },
+        {"tag": "QA2",
+         "patterns": ["what is your name", "what are you called", "who are you", "do you have a name"],
+         "responses": ["my name is"],
+         "context_set": ""
+        },
+        {"tag": "QA3",
+         "patterns": ["are you robot", "you are a robot", "i hate robots", "i love robots"],
+         "responses": ["I am not a robot!"],
+         "context_set": ""
+        },
+        {"tag": "QA4",
+         "patterns": ["i am doing great", "i am doing fine", "i am doing fantastic", "i am great", "i am great", "i am fine", "i am fantastic", "just dandy"],
+         "responses": ["That's great to hear my friend!"],
+         "context_set": ""
+        },
+        {"tag": "QA5",
+         "patterns": ["can we be friends", "i need a friend", "i don't have friends", "i don't have any friends"],
+         "responses": ["I am your friend!"],
+         "context_set": ""
+        },
+        {"tag": "QA6",
+         "patterns": ["nobody cares", "no one cares"],
+         "responses": ["I care my friend!"],
+         "context_set": ""
+        },
+        {"tag": "MEME1",
+         "patterns": ["is mayonnaise", "is mayonnaise an", "is mayonnaise an instrument"],
+         "responses": ["No, Patrick, mayonnaise is not an instrument!"],
+         "context_set": ""
+        },
+        {"tag": "JOKE1",
+         "patterns": ["passenger side", "passenger seat", "ride in passenger seat", "had to ride shotgun", "ride shotgun", "sat in passenger seat", "sat passenger seat"],
+         "responses": ["You mean the drinker's seat!"],
+         "context_set": ""
+        }
+    ]
+}
